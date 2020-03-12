@@ -10,9 +10,17 @@ let e = Math.floor(Math.random() * (max1 - min1 +1)) + min1;
 
 let f = Math.floor(Math.random() * (max1 - min1 +1)) + min1;
 
+let d1 = d*e*f;
+let e1 = d+e+f;
 
-let result = (Math.max(d*e*f, d+e+f)+3);
-console.log(result);
+console.log (d1);
+console.log (e1);
+
+if (d1 >= e1) {
+    console.log ( d1 + 3);
+} else {
+    console.log (e1 + 3);
+}
+
 
      
- 
