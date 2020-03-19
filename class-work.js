@@ -21,6 +21,7 @@ let temp = arr[indMin];
 arr[indMin] = arr[indMax];
 arr[indMax] = temp;
 
+
 console.log (arr);
 console.log (indMin);
 console.log (arr[indMin]);

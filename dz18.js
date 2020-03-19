@@ -17,11 +17,9 @@ for (let i = 0; i < array1Length; i ++){
     if (sr_sum > array1[i]) {
      let temp = array1[i];
      array2[i] = temp;
-      
-    
     }
-    
 }
+
 
 
 
